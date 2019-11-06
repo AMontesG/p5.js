@@ -1,0 +1,60 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("imagenes/espacio.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: fuente;
+}
+@font-face {
+font-family: fuente;
+src: url('imagenes/fuente.ttf');
+}
+canvas {
+  display: block;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  margin-left: 80px;
+  font-size: 30px;
+}
+
+p {
+  color: white;
+  font-size: 18px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+ol {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#escala,
+#masa {
+  font-size: 18px;
+
+  margin-bottom: 30px;
+}
+
+input {
+  margin-left: 20px;
+  margin-right: 20px;
+
+  height: 15%;
+  width: 15%;
+}
+
+div {
+  text-align: center;
+  margin-bottom: 40px;
+}
