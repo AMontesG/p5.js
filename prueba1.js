@@ -8,7 +8,7 @@ var  operador =  document.getElementById('operador').value;
   //Crear un manejador del evento pulsar botón.
   button.onclick = calcular();
 
-
+button.onlcli;
 //Realizar los cálculos cuando se pulsa el botón.
 function calcular() {
 
